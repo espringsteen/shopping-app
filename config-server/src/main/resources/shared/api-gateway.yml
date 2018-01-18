@@ -14,3 +14,7 @@ zuul:
     inventory-service:
       path: /inventory/**
       url: http://inventory-service:8081
+
+    shoppingcart-service:
+      path: /shoppingcart/**
+      url: http://shoppingcart-service:8084
